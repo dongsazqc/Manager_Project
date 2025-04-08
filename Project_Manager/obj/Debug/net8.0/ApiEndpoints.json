@@ -21,21 +21,21 @@
   },
   {
     "ContainingType": "Project_Manager.Controllers.ProductController",
-    "Method": "CreateProduct",
+    "Method": "reateProduct",
     "RelativePath": "api/Product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "Project_Manager.Models.Product",
+        "Name": "ProCateDTO",
+        "Type": "ProductCategoryDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Project_Manager.Models.Product",
+        "Type": "ProductCategoryDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
