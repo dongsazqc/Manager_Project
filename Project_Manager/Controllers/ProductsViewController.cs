@@ -20,6 +20,11 @@ namespace Project_Manager.Controllers
             var products = _context.Products.ToList();
             return View(products);
         }
+        public IActionResult Details( int id)
+        {
+            var product = _context.Products.FirstOrDefault(p => p.Id == id);
+            return View(product);
+        }
 
         // Action để hiển thị form tạo sản phẩm mới
         public IActionResult Create()

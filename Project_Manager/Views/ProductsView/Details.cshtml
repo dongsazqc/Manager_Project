@@ -1,0 +1,26 @@
+﻿@model Project_Manager.Models.Product
+
+@{
+    ViewData["Title"] = "Chi Tiết Món Ăn";
+}
+@{
+    //        public string Name { get; set; }
+      //  public decimal Price { get; set; }
+     //   public string? Description { get; set; }
+     //   public string? ImageUrl { get; set; }
+
+       // public int CategoryId { get; set; }
+
+}
+<h1>@Model.Name</h1>
+
+<div>
+    <h3>Thông tin chi tiết:</h3>
+    <p><strong>Mô tả:</strong> @Model.Description</p>
+    <p><strong>Giá:</strong> @Model.Price.ToString("C")</p> <!-- Hiển thị giá với định dạng tiền tệ -->
+    <p><strong>Img </strong> @Model.ImageUrl </p>
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "ProductsView")">Trở lại danh sách sản phẩm</a>
+</div>

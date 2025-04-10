@@ -17,61 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project_Manager
 build_property.RootNamespace = Project_Manager
-build_property.ProjectDir = D:\HocTap\SD19313-QuanLiDuAn-Mr.Dinh\Project_Manager\Project_Manager\
+build_property.ProjectDir = C:\Users\Admin\Manager_Project\Project_Manager\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\HocTap\SD19313-QuanLiDuAn-Mr.Dinh\Project_Manager\Project_Manager
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Manager_Project\Project_Manager
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/Home/Index.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/ProductsView/Create.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/ProductsView/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNWaWV3XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/ProductsView/Delete.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/ProductsView/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNWaWV3XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/ProductsView/Edit.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/ProductsView/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNWaWV3XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/ProductsView/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNWaWV3XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/ProductsView/Index.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/ProductsView/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNWaWV3XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/SD19313-QuanLiDuAn-Mr.Dinh/Project_Manager/Project_Manager/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Manager_Project/Project_Manager/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-anbfe4zn69

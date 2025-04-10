@@ -234,7 +234,7 @@ namespace Project_Manager.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("Project_Manager.Models.Order", b =>
@@ -256,7 +256,7 @@ namespace Project_Manager.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Project_Manager.Models.OrderDetail", b =>
@@ -285,7 +285,7 @@ namespace Project_Manager.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderDetails");
+                    b.ToTable("OrderDetails", (string)null);
                 });
 
             modelBuilder.Entity("Project_Manager.Models.Product", b =>
@@ -316,7 +316,7 @@ namespace Project_Manager.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
