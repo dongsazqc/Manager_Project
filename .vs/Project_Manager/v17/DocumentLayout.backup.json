@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\views\\productsview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\views\\productsview\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\views\\productsview\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\views\\productsview\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\views\\productsview\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\views\\productsview\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\views\\productsview\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\views\\productsview\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\controllers\\productsviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\controllers\\productsviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,52 +31,32 @@
       "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\models\\productcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\project_manager.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\project_manager.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\migrations\\20250407224425_createtable2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\migrations\\20250407224425_createtable2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\project_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\project_manager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|d:\\hoctap\\sd19313-quanliduan-mr.dinh\\project_manager\\project_manager\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D496E8-7544-4564-8E3E-A1EF84419196}|Project_Manager\\Project_Manager.csproj|solutionrelative:project_manager\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +66,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductCategoryDTO.cs",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\ProductCategoryDTO.cs",
+              "RelativeDocumentMoniker": "Project_Manager\\Models\\ProductCategoryDTO.cs",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\ProductCategoryDTO.cs",
+              "RelativeToolTip": "Project_Manager\\Models\\ProductCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:32:54.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Project_Manager\\Views\\ProductsView\\Delete.cshtml",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Delete.cshtml",
+              "RelativeToolTip": "Project_Manager\\Views\\ProductsView\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:27:41.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Project_Manager\\Views\\ProductsView\\Edit.cshtml",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Edit.cshtml",
+              "RelativeToolTip": "Project_Manager\\Views\\ProductsView\\Edit.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:27:32.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project_Manager\\Views\\ProductsView\\Create.cshtml",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Create.cshtml",
+              "RelativeToolTip": "Project_Manager\\Views\\ProductsView\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:27:24.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_Manager\\Views\\ProductsView\\Index.cshtml",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\ProductsView\\Index.cshtml",
+              "RelativeToolTip": "Project_Manager\\Views\\ProductsView\\Index.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAswJgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T15:25:39.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsViewController.cs",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\ProductsViewController.cs",
+              "RelativeDocumentMoniker": "Project_Manager\\Controllers\\ProductsViewController.cs",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\ProductsViewController.cs",
+              "RelativeToolTip": "Project_Manager\\Controllers\\ProductsViewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:09:09.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Project_Manager\\Controllers\\HomeController.cs",
@@ -78,168 +156,94 @@
               "RelativeToolTip": "Project_Manager\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:47:38.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductCategoryDTO.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\ProductCategoryDTO.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Models\\ProductCategoryDTO.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\ProductCategoryDTO.cs",
-              "RelativeToolTip": "Project_Manager\\Models\\ProductCategoryDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T22:40:56.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Project_Manager\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Project_Manager\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T01:17:03.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Project_Manager",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Project_Manager.csproj",
-              "RelativeDocumentMoniker": "Project_Manager\\Project_Manager.csproj",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Project_Manager.csproj",
-              "RelativeToolTip": "Project_Manager\\Project_Manager.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-08T01:17:00.636Z"
+              "WhenOpened": "2025-04-10T15:04:39.644Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "Project_Manager\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "Project_Manager\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T00:54:15.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Project_Manager\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Project_Manager\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T23:10:10.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Project_Manager\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAUwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:48:38.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20250407224425_CreateTable2.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Migrations\\20250407224425_CreateTable2.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Migrations\\20250407224425_CreateTable2.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Migrations\\20250407224425_CreateTable2.cs",
-              "RelativeToolTip": "Project_Manager\\Migrations\\20250407224425_CreateTable2.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:44:25.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Project_Manager\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:41:19.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Models\\OrderDetail.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\OrderDetail.cs",
-              "RelativeToolTip": "Project_Manager\\Models\\OrderDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:41:06.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Models\\Order.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\Order.cs",
-              "RelativeToolTip": "Project_Manager\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:40:48.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Project_Manager\\Models\\Category.cs",
-              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\Category.cs",
-              "RelativeToolTip": "Project_Manager\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:40:30.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Project_Manager\\Models\\Product.cs",
               "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\Product.cs",
               "RelativeToolTip": "Project_Manager\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:39:44.839Z",
+              "WhenOpened": "2025-04-10T15:00:55.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Project_Manager\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Project_Manager\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:00:24.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Project_Manager.csproj",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Project_Manager.csproj",
+              "RelativeDocumentMoniker": "Project_Manager\\Project_Manager.csproj",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Project_Manager.csproj",
+              "RelativeToolTip": "Project_Manager\\Project_Manager.csproj",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-09T01:42:57.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Project_Manager\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Project_Manager\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-09T01:24:14.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Program.cs",
               "RelativeDocumentMoniker": "Project_Manager\\Program.cs",
               "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Program.cs",
               "RelativeToolTip": "Project_Manager\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAABBwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:26:59.604Z"
+              "WhenOpened": "2025-04-09T01:19:56.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Project_Manager\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Project_Manager\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:13:11.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Project_Manager\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\HocTap\\SD19313-QuanLiDuAn-Mr.Dinh\\Project_Manager\\Project_Manager\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Project_Manager\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T01:13:07.178Z"
             }
           ]
         }

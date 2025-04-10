@@ -55,10 +55,10 @@ namespace Project_Manager.Controllers
             await  _context.SaveChangesAsync();
             return Ok();
         }
-
+            
         // PUT: api/product/5
         [HttpPut("{id}")] 
-        public async Task<IActionResult> UpdateProduct(int id, Product product)
+        public async Task<IActionResult> UpdateProduct(int id, Product product) 
         {
             if (id != product.Id)
                 return BadRequest(); // ID trên URL với trong body mà lệch là tao cho lỗi liền nha
