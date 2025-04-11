@@ -234,6 +234,7 @@
             "nullable": true
           },
           "imageUrl": {
+            "pattern": "^/images/.*\\.(jpg|jpeg|png|gif)$",
             "type": "string",
             "nullable": true
           },

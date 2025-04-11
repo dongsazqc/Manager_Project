@@ -27,22 +27,40 @@ namespace Project_Manager.Controllers
         }
 
         // Action để hiển thị form tạo sản phẩm mới
+        [HttpGet]
         public IActionResult Create()
         {
             return View(new Product());
         }
 
-        // Action xử lý POST yêu cầu tạo sản phẩm mới
         [HttpPost]
-        public IActionResult Create(Product product)
+        public async Task<IActionResult> Create(Product product, IFormFile imageFile)
         {
             if (ModelState.IsValid)
             {
+                // Kiểm tra nếu người dùng có chọn file ảnh
+                if (imageFile != null && imageFile.Length > 0)
+                {
+                    // Lưu ảnh vào thư mục wwwroot/images
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", imageFile.FileName);
+
+                    // Copy ảnh vào thư mục
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+
+                    // Lưu đường dẫn vào thuộc tính ImageUrl của sản phẩm
+                    product.ImageUrl = "/images/" + imageFile.FileName;
+                }
+
                 // Thêm sản phẩm vào database
                 _context.Products.Add(product);
-                _context.SaveChanges(); // Lưu thay đổi vào database
+                await _context.SaveChangesAsync();
+
                 return RedirectToAction("Index");
             }
+
             return View(product);
         }
 

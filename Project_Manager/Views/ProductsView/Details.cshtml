@@ -3,24 +3,100 @@
 @{
     ViewData["Title"] = "Chi Tiết Món Ăn";
 }
-@{
-    //        public string Name { get; set; }
-      //  public decimal Price { get; set; }
-     //   public string? Description { get; set; }
-     //   public string? ImageUrl { get; set; }
 
-       // public int CategoryId { get; set; }
+<div class="product-container">
+    <div class="product-header">
+        <h1>@Model.Name</h1>
+    </div>
 
+    <div class="product-info">
+        <div class="info-left">
+            <h3>Thông tin chi tiết:</h3>
+            <p><strong>Mô tả:</strong> @Model.Description</p>
+            <p><strong>Giá:</strong> @Model.Price.ToString("C")</p>
+
+        </div>
+
+        <div class="info-right">
+            <img src="@Model.ImageUrl" alt="@Model.Name" class="product-image" />
+        </div>
+    </div>
+
+    <div class="back-link">
+        <a href="@Url.Action("Index", "ProductsView")">Trở lại danh sách sản phẩm</a>
+    </div>
+</div>
+
+<styles>{
+    <style>
+        /* Tạo một container cho toàn bộ thông tin sản phẩm */
+        .product-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Phần tiêu đề sản phẩm */
+        .product-header h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Flexbox để chia đôi phần thông tin */
+        .product-info {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .info-left {
+            flex: 1;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+            .info-left h3 {
+                color: #1E90FF;
+                font-size: 1.6em;
+                margin-bottom: 15px;
+            }
+
+            .info-left p {
+                margin: 15px 0;
+            }
+
+        /* Hiển thị ảnh sản phẩm */
+        .info-right {
+            flex: 1;
+            text-align: center;
+        }
+
+        .product-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Phần liên kết quay lại */
+        .back-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+            .back-link a {
+                color: #007BFF;
+                text-decoration: none;
+                font-size: 1.2em;
+            }
+
+                .back-link a:hover {
+                    text-decoration: underline;
+                }
+    </style>
 }
-<h1>@Model.Name</h1>
-
-<div>
-    <h3>Thông tin chi tiết:</h3>
-    <p><strong>Mô tả:</strong> @Model.Description</p>
-    <p><strong>Giá:</strong> @Model.Price.ToString("C")</p> <!-- Hiển thị giá với định dạng tiền tệ -->
-    <p><strong>Img </strong> @Model.ImageUrl </p>
-</div>
-
-<div>
-    <a href="@Url.Action("Index", "ProductsView")">Trở lại danh sách sản phẩm</a>
-</div>

@@ -42,12 +42,12 @@
                     <a href="@Url.Action("Edit", new { id = product.Id })" class="btn btn-edit">Edit</a>
                     <a href="@Url.Action("Delete", new { id = product.Id })" class="btn btn-delete">Delete</a>
                     <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-details">Details</a>
-
                 </td>
             </tr>
         }
     </tbody>
 </table>
+
 <style>
     /* Tổng thể thiết kế */
     body {
@@ -162,6 +162,10 @@
         background-color: #E74C3C;
     }
 
+    .btn-details {
+        background-color: #1ABC9C; /* Màu cho nút Details */
+    }
+
     .btn-edit:hover {
         background-color: #2980B9;
         transform: scale(1.05);
@@ -172,8 +176,13 @@
         transform: scale(1.05);
     }
 
+    .btn-details:hover {
+        background-color: #16A085; /* Màu khi hover vào nút Details */
+        transform: scale(1.05);
+    }
+
     /* Các hiệu ứng của các nút khi hover */
-    .btn-edit, .btn-delete {
+    .btn-edit, .btn-delete, .btn-details {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     }
 
@@ -183,4 +192,3 @@
         color: #888;
     }
 </style>
-
