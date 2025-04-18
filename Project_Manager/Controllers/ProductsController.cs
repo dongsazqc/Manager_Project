@@ -50,6 +50,7 @@ namespace Project_Manager.Controllers
                  Description = ProCateDTO.Description,
                  ImageUrl = ProCateDTO.ImageUrl,
                  CategoryId = ProCateDTO.CategoryId,
+                Quantity = 0
             };
              _context.Products.Add(crePro);
             await  _context.SaveChangesAsync();
@@ -92,6 +93,85 @@ namespace Project_Manager.Controllers
             await _context.SaveChangesAsync(); 
 
             return NoContent(); 
+        }
+
+        // PUT: api/product/5/increase-quantity
+        [HttpPut("{id}/increase-quantity")]
+        public async Task<IActionResult> IncreaseQuantity(int id, [FromBody] int quantity)
+        {
+            if (quantity <= 0)
+            {
+                return BadRequest("Số lượng tăng phải lớn hơn 0."); // Bắt lỗi cho nó chắc cú
+            }
+
+            var product = await _context.Products.FindAsync(id);
+
+            if (product == null)
+            {
+                return NotFound(); // Không tìm thấy sản phẩm thì báo lỗi
+            }
+
+            product.Quantity += quantity;
+            _context.Entry(product).State = EntityState.Modified; // Lại gắn cờ update
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                return NoContent(); // Thành công thì trả về NoContent (status 204)
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Products.Any(p => p.Id == id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw; // Lỗi bất ngờ thì ném lại
+                }
+            }
+        }
+
+        // PUT: api/product/5/decrease-quantity
+        [HttpPut("{id}/decrease-quantity")]
+        public async Task<IActionResult> DecreaseQuantity(int id, [FromBody] int quantity)
+        {
+            if (quantity <= 0)
+            {
+                return BadRequest("Số lượng giảm phải lớn hơn 0."); // Kiểm tra số lượng hợp lệ
+            }
+
+            var product = await _context.Products.FindAsync(id);
+
+            if (product == null)
+            {
+                return NotFound(); // Vẫn là không tìm thấy
+            }
+
+            if (product.Quantity < quantity)
+            {
+                return BadRequest("Số lượng sản phẩm không đủ để giảm."); // Kiểm tra không cho giảm quá số lượng hiện có
+            }
+
+            product.Quantity -= quantity;
+            _context.Entry(product).State = EntityState.Modified; // Tiếp tục gắn cờ
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                return NoContent(); // Lại là thành công
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Products.Any(p => p.Id == id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw; // Xử lý lỗi concurrent
+                }
+            }
         }
     }
 }
