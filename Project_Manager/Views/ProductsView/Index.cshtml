@@ -14,6 +14,7 @@
             <th>Description</th>
             <th>Price</th>
             <th>Image</th>  <!-- Cột mới để hiển thị hình ảnh -->
+            <th>Quantity</th>
             <th>Actions</th>
         </tr>
     </thead>
@@ -36,7 +37,7 @@
                         <p>No Image Available</p>
                     }
                 </td>
-
+                <td>@product.Quantity</td>
                 <td>
                     <!-- Các hành động như chỉnh sửa, xóa -->
                     <a href="@Url.Action("Edit", new { id = product.Id })" class="btn btn-edit">Edit</a>

@@ -88,6 +88,7 @@ namespace Project_Manager.Controllers
                 existingProduct.Name = product.Name;
                 existingProduct.Description = product.Description;
                 existingProduct.Price = product.Price;
+                existingProduct.Quantity = product.Quantity;
 
                 _context.SaveChanges(); // Lưu thay đổi vào database
 
