@@ -1,8 +1,91 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang Chủ";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hero">
+    <div class="hero-text">
+        <h1>Tin Tức Nóng Hổi 🔥</h1>
+        <p>Cập nhật nhanh các thông tin khuyến mãi, sự kiện và món mới từ FoodZone!</p>
+    </div>
 </div>
+
+<div class="news-section">
+    <h2>Tin mới nhất</h2>
+    <div class="news-list">
+        <div class="news-card">
+            <h3>🎉 Khuyến mãi 50% toàn menu dịp lễ!</h3>
+            <p>Từ ngày 30/4 đến 2/5, giảm giá cực mạnh cho toàn bộ món ăn! Nhanh tay kẻo hết!</p>
+            <span class="date">Cập nhật: 24/04/2025</span>
+        </div>
+        <div class="news-card">
+            <h3>🥤 Ra mắt combo "Trưa Siêu Tốc"</h3>
+            <p>Combo mới chỉ 35k gồm nước + món chính + món phụ, dành riêng cho dân văn phòng!</p>
+            <span class="date">Cập nhật: 22/04/2025</span>
+        </div>
+        <div class="news-card">
+            <h3>🍜 Món mới: Phở Bò Đặc Biệt</h3>
+            <p>Hương vị truyền thống, nước lèo ninh 8 tiếng, ăn một lần là ghiền!</p>
+            <span class="date">Cập nhật: 20/04/2025</span>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hero {
+        background: url('https://source.unsplash.com/1600x600/?news,food') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    .hero-text {
+        background: rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    .news-section {
+        padding: 60px 20px;
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+
+    .news-list {
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .news-card {
+        background: white;
+        padding: 20px 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        text-align: left;
+        transition: transform 0.3s ease;
+    }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .news-card h3 {
+            color: #e67e22;
+            margin-bottom: 10px;
+        }
+
+        .news-card p {
+            color: #333;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+    .date {
+        font-size: 13px;
+        color: #777;
+        font-style: italic;
+    }
+</style>

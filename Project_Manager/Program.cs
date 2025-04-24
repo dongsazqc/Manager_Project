@@ -16,6 +16,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
+
 // Bật Swagger lên nhen, test API cho sướng tay, khỏi phải đoán mò 🙌
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Project_Manager.Data;
 using Project_Manager.Models;
 using System.Linq;
@@ -13,7 +14,6 @@ namespace Project_Manager.Controllers
         {
             _context = context;
         }
-
         // Action để hiển thị tất cả các sản phẩm
         public IActionResult Index()
         {
@@ -38,7 +38,7 @@ namespace Project_Manager.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Kiểm tra nếu người dùng có chọn file ảnh
+         // Kiểm tra nếu người dùng có chọn file ảnh
                 if (imageFile != null && imageFile.Length > 0)
                 {
                     // Lưu ảnh vào thư mục wwwroot/images
@@ -52,7 +52,7 @@ namespace Project_Manager.Controllers
 
                     // Lưu đường dẫn vào thuộc tính ImageUrl của sản phẩm
                     product.ImageUrl = "/images/" + imageFile.FileName;
-                }
+                }       
 
                 // Thêm sản phẩm vào database
                 _context.Products.Add(product);

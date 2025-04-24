@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Project_Manager.Models;
 
@@ -12,7 +13,7 @@ namespace Project_Manager.Controllers
         {
             _logger = logger;
         }
-
+        [Authorize(Roles = "User")]
         public IActionResult Index()
         {
             return View();
