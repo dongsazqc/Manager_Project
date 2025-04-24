@@ -1,5 +1,6 @@
-﻿@model IEnumerable<Project_Manager.Models.Product>
-
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<Project_Manager.Models.Product>
+@inject SignInManager<IdentityUser> SignInManager
 @{
     ViewData["Title"] = "Product List";
 }
@@ -39,10 +40,22 @@
                 </td>
                 <td>@product.Quantity</td>
                 <td>
-                    <!-- Các hành động như chỉnh sửa, xóa -->
-                    <a href="@Url.Action("Edit", new { id = product.Id })" class="btn btn-edit">Edit</a>
-                    <a href="@Url.Action("Delete", new { id = product.Id })" class="btn btn-delete">Delete</a>
-                    <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-details">Details</a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <!-- Chỉ Admin mới thấy các nút này -->
+                        <a href="@Url.Action("Edit", new { id = product.Id })" class="btn btn-edit">Edit</a>
+                        <a href="@Url.Action("Delete", new { id = product.Id })" class="btn btn-delete">Delete</a>
+                    }
+                    else
+                    {
+                        <!-- Nút Thêm vào giỏ cho user -->
+                        <form asp-action="Index" asp-controller="Cart">
+                            <a href="@Url.Action("AddToCart", "Cart", new { productId = product.Id })" class="btn btn-success">Thêm vào giỏ</a>
+                        </form>
+                    }
+
+                    <!-- Nút "Xem chi tiết" thì ai cũng thấy -->
+                    <a href="@Url.Action("Details", new { id = product.Id })" class="btn btn-details">Chi tiết</a>
                 </td>
             </tr>
         }
@@ -192,4 +205,19 @@
         font-size: 14px;
         color: #888;
     }
+
+    .btn-buy {
+        background-color: #007bff;
+        color: white;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-buy:hover {
+            background-color: #0056b3;
+        }
+
 </style>

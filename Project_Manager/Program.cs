@@ -4,6 +4,13 @@ using Project_Manager.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Thêm cấu hình session
+builder.Services.AddDistributedMemoryCache(); // Cần cho việc sử dụng session
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn của session
+    options.Cookie.IsEssential = true; // Đảm bảo cookie session được gửi trong mọi yêu cầu
+});
 // Thêm Razor Pages nha các bé, để còn xài được cái UI mặc định của Identity. Xài chùa mà vẫn xịn 😎
 builder.Services.AddRazorPages();
 
@@ -15,7 +22,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
-
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 // Bật Swagger lên nhen, test API cho sướng tay, khỏi phải đoán mò 🙌
 builder.Services.AddEndpointsApiExplorer();
@@ -57,7 +69,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseSwagger(); // Bật Swagger API interface nè mấy má
 app.UseSwaggerUI(); // Không có UI thì test API bằng niềm tin à?
-
+app.UseSession();
 app.UseHttpsRedirection(); // Bắt buộc phải xài HTTPS nha. Đừng xài HTTP chay, quê lắm 🤓
 app.UseStaticFiles();      // Cho phép load ảnh, css, js linh tinh các kiểu con đà điểu
 

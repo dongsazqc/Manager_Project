@@ -1,0 +1,78 @@
+﻿@model CreateUserViewModel
+@{
+    Layout = null;
+}
+
+<h2>Thêm người dùng mới</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Mật khẩu:</label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Phân quyền:</label><br />
+        @foreach (var role in Model.AvailableRoles)
+        {
+            <label style="margin-right: 10px;">
+                <input type="checkbox" name="SelectedRoles" value="@role" />
+                @role
+            </label>
+        }
+    </div>
+
+    <button type="submit" class="btn">Tạo người dùng</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<style>
+    form {
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        max-width: 600px;
+        margin: 30px auto;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>

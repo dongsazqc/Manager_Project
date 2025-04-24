@@ -8776,23 +8776,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\phamm\\.nuget\\packages\\": {},
+    "C:\\Users\\Tennyson\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Manager_Project\\Project_Manager\\Project_Manager.csproj",
+      "projectUniqueName": "C:\\Users\\Tennyson\\Desktop\\New folder\\Manager_Project\\Project_Manager\\Project_Manager.csproj",
       "projectName": "Project_Manager",
-      "projectPath": "D:\\Desktop\\Manager_Project\\Project_Manager\\Project_Manager.csproj",
-      "packagesPath": "C:\\Users\\phamm\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Manager_Project\\Project_Manager\\obj\\",
+      "projectPath": "C:\\Users\\Tennyson\\Desktop\\New folder\\Manager_Project\\Project_Manager\\Project_Manager.csproj",
+      "packagesPath": "C:\\Users\\Tennyson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tennyson\\Desktop\\New folder\\Manager_Project\\Project_Manager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\phamm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tennyson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8801,7 +8801,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8820,7 +8819,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8896,7 +8895,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

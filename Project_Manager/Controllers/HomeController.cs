@@ -13,7 +13,8 @@ namespace Project_Manager.Controllers
         {
             _logger = logger;
         }
-        [Authorize(Roles = "User")]
+
+        [Authorize(Roles = "Admin,User")]
         public IActionResult Index()
         {
             return View();

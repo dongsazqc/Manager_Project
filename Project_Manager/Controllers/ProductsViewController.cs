@@ -14,12 +14,15 @@ namespace Project_Manager.Controllers
         {
             _context = context;
         }
-        // Action để hiển thị tất cả các sản phẩm
+
+        [Authorize(Roles = "User,Admin")]
         public IActionResult Index()
         {
             var products = _context.Products.ToList();
             return View(products);
         }
+
+        [Authorize(Roles = "Admin,User")]
         public IActionResult Details( int id)
         {
             var product = _context.Products.FirstOrDefault(p => p.Id == id);
@@ -27,6 +30,7 @@ namespace Project_Manager.Controllers
         }
 
         // Action để hiển thị form tạo sản phẩm mới
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult Create()
         {
@@ -63,8 +67,7 @@ namespace Project_Manager.Controllers
 
             return View(product);
         }
-
-        // Action để hiển thị form chỉnh sửa sản phẩm
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit(int id)
         {
             var product = _context.Products.FirstOrDefault(p => p.Id == id);
@@ -98,7 +101,7 @@ namespace Project_Manager.Controllers
         }
 
         // Action để xóa sản phẩm
-        
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var product = _context.Products.FirstOrDefault(p => p.Id == id);
